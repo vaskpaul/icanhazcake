@@ -1,0 +1,166 @@
+/*----------------------------------------
+  ToDo List
+
+  @author: Marcos Lopez
+
+  MOBILE STYLES
+----------------------------------------*/
+.navbar-inverse{
+    background-color: rgb(107,107,107);
+    border-color: #e7e7e7;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-text {
+    color: #FFF;
+}
+
+.navbar-right{
+    margin-right: 1.1rem;
+}
+
+input[type='checkbox'] {
+    width: 15px;
+    height: 15px;
+}
+
+.subtask>td:nth-child(2)>input{
+    margin-left: 10px
+}
+
+.subtask2>td:nth-child(2)>input{
+    margin-left: 20px;
+}
+
+.subtask3>td:nth-child(2)>input{
+    margin-left: 30px;
+}
+
+label{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#priority{
+    width: 100%;
+}
+
+.form-btn{
+    margin: 1.2em 0 0;
+    width: 100%;
+}
+
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+* html .ui-autocomplete {
+    height: 100px;
+}
+
+
+.ui-autocomplete .ui-state-hover
+{
+    background-color: #3399ff !important;
+    background-image: none !important;
+    color: White;
+}
+
+.ui-autocomplete.ui-menu .ui-menu-item a
+{
+    padding: 2 0 0 0 !important;
+    line-height: 1 !important;
+}
+
+.ui-autocomplete.ui-widget
+{
+    font-family: Sans-Serif !important;
+    font-size: 1em !important;
+}
+
+.ui-autocomplete.ui-corner-all
+{
+    border-radius: 0 !important;
+}
+
+.ui-state-focus{
+    background-color: #337ab7;
+    color:white;
+}
+
+.simplecolorpicker span.color{
+    width: 25px;
+    height: 25px;
+}
+
+.simplecolorpicker.fontawesome span.color[data-selected]:after {
+    font-family: 'FontAwesome';
+    -webkit-font-smoothing: antialiased;
+
+    content: '\f00c'; /* Ok/check mark */
+
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+td.strikeout{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.footable-editing{
+    min-width: 55px;
+}
+
+.footable-edit, .footable-delete, .footable-sub{
+    width: 25px;
+    height: 25px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+#form_priority{
+    min-width: 100%;
+    height: 50px;
+}
+
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+}
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+}
+.custom-combobox-input {
+    margin: 0;
+    padding: 2.5px 5px;
+    width: 100%;
+}
+
+
+.status-button{
+    width: 1.5em !important;
+    padding: 5px 0px !important;
+    position: absolute !important;
+}
+
+.reset_filter{
+    float:right;
+    display: none;
+}
+
+span.hide-native-select{position:relative}span.hide-native-select select{border:0!important;clip:rect(0 0 0 0)!important;height:1px!important;margin:-1px -1px -1px -3px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important;left:50%;top:30px}.multiselect-container{position:absolute;list-style-type:none;margin:0;padding:0}.multiselect-container .input-group{margin:5px}.multiselect-container>li{padding:0}.multiselect-container>li>a.multiselect-all label{font-weight:700}.multiselect-container>li.multiselect-group label{margin:0;padding:3px 20px 3px 20px;height:100%;font-weight:700}.multiselect-container>li.multiselect-group-clickable label{cursor:pointer}.multiselect-container>li>a{padding:0}.multiselect-container>li>a>label{margin:0;height:100%;cursor:pointer;font-weight:400;padding:3px 20px 3px 40px}.multiselect-container>li>a>label.radio,.multiselect-container>li>a>label.checkbox{margin:0}.multiselect-container>li>a>label>input[type=checkbox]{margin-bottom:5px}.btn-group>.btn-group:nth-child(2)>.multiselect.btn{border-top-left-radius:4px;border-bottom-left-radius:4px}.form-inline .multiselect-container label.checkbox,.form-inline .multiselect-container label.radio{padding:3px 20px 3px 40px}.form-inline .multiselect-container li a label.checkbox input[type=checkbox],.form-inline .multiselect-container li a label.radio input[type=radio]{margin-left:-20px;margin-right:0}

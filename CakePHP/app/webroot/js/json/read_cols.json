@@ -1,0 +1,32 @@
+[{
+        "name": "title",
+        "title": "Title"
+    }, {
+        "name": "priority",
+        "title": "Priority",
+        "breakpoints": "xs sm"
+    }, {
+        "name": "percentage",
+        "title": "%",
+        "breakpoints": "xs sm"
+    }, {
+        "name": "date",
+        "title": "Due Date",
+        "breakpoints": "xs sm"
+    }, {
+        "name": "status",
+        "title": "Status",
+        "breakpoints": "xs sm"
+    }, {
+        "name": "category",
+        "title": "Category",
+        "breakpoints": "xs sm"
+    }, {
+        "name": "tags",
+        "title": "Tags",
+        "breakpoints": "xs sm"
+    }, {
+        "name": "comment",
+        "title": "Comment",
+        "breakpoints": "xs sm"
+    }]
